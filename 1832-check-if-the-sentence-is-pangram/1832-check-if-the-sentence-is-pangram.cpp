@@ -7,11 +7,6 @@ public:
         {
             mp[i]++;
         }
-       for(char i='a'; i<='z';i++)
-       {
-           if(mp[i]==0)
-               return false;
-       }
-        return true;
+      return mp.size()==26;
     }
 };
