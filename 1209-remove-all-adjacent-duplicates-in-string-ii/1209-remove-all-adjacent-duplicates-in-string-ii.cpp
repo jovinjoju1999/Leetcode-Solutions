@@ -33,5 +33,6 @@ public:
         }
         reverse(m.begin(),m.end());
         return m;
+        return 0;
     }
 };
